@@ -1,0 +1,1 @@
+/home/antuarc/osidt/tools/scripts/random-word.sh
