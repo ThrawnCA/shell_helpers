@@ -1,0 +1,6 @@
+#!/bin/sh
+
+OUTPUT=`git push 2>&1 |grep 'set-upstream'`
+if [ "$OUTPUT" != "" ]; then
+  $OUTPUT 
+fi
